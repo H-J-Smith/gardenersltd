@@ -1,0 +1,11 @@
+.socials {
+    list-style: none;
+    text-decoration: none;
+}
+
+.flowers,
+.landscape,
+.maintenance,
+.grass {
+    height: 200px;
+}
