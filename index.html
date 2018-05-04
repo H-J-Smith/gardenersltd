@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,65 +10,63 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>Gardeners Ltd | Home</title>
 </head>
-<body>
+
+<body class="bg-index">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Gardeners Ltd</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav-menu">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
-                    </li>
-                </ul>
+        <nav>
+            <div class="navbar navbar-expand-lg navbar-light" id="nav">
+                <a class="navbar-brand" href="index.html"><span class="nav-items">Gardeners Ltd</span></a>
+                <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><span class="nav-items">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html"><span class="nav-items">Services</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html"><span class="nav-items">Gallery</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html"><span class="nav-items">Contact Us</span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    
-    <section class="container-fluid">
-        <div class="jumbotron">
-            <h3>We want to work for you! Have a job in mind?</h3>
-            <hr class="my-4">
-            <p class="lead">
-                <a href="contact-us.html">
-                    <button type="button" class="btn">Click Here to Contact Us</button>
-                </a>
-            </p>
-        </div>
-        <div>
-            <h2>Who We Are</h2>
-            <p>
-                We are a team of expert landscape gardeners with over 50 years experience. 
-                We are capable of completing any job you set us and doing it while working within your budget!
-                Our services are not limited and if you have work you want completed, contact us and we shall
-                inform you accordingly.
-            </p>
-            <a href="services.html">
-                <button type="button" class="btn">View Our Services Here</button>
-            </a>
-            <a href="gallery.html">
-                <button type="button" class="btn">View Our Previous Work Here</button>
-            </a>
-        </div>
-    </section>
-    
-    <footer class="container-fluid">
-        <div class="row bg-light">
-            <div class="text-center text-md-left col-12 col-md-8">
-                <p><i class="far fa-copyright"></i> 2018 - Gardeners Ltd. All rights reserved.</p>
+
+    <div class="container banner-container">
+        <div class=" row align-items-end banner">
+            <div class="container">
+                <div class="col-xs-12">
+                    <h1 class="banner-text">Got a gardening job in mind? Let us help you!</h1>
+                    <p class="banner-btn"><button type="button" class="btn btn-ban">Contact Us</button></p>
+                </div>
             </div>
-            <div  class="text-center text-md-right col-12 col-md-4">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row link-container">
+            <div class="container link col-12 col-md-3">
+            </div>
+            <div class="container link col-12 col-md-3">
+            </div>
+            <div class="container link col-12 col-md-3">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid align-items-end container-footer">
+        <div class="row align-items-center">
+            <div class="text-center text-md-left col-12 col-md-8">
+                <p><i class="far fa-copyright align-items-center"></i> 2018 - Gardeners Ltd. All rights reserved.</p>
+            </div>
+            <div class="text-center text-md-right col-12 col-md-4">
                 <ul class="list-inline socials">
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
@@ -76,8 +75,50 @@
         </div>
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+<div>
+    <div class="col-12 col-md-3">
+        <p>
+            We are a team of expert landscape gardeners with over 50 years experience. We are capable of completing any job you set us and doing it while working within your budget! Our services are not limited and if you have work you want completed, contact us
+            and we shall inform you accordingly.
+        </p>
+    </div>
+</div>
+<div>
+    <div class="col-12 col-md-3">
+        <p>Our services include, but are not limited to...
+            <ul>
+                <li>Garden Tidy</li>
+                <li>Laying and Cutting Lawns</li>
+                <li>Re-Landscapeing Gardens</li>
+                <li>General Maintenance</li>
+            </ul>
+        </p>
+        <p class="text-center">
+            <a href="gallery.html">
+                            <button type="button" class="btn who-cta-btn">View Our Services Here</button>
+                        </a>
+        </p>
+    </div>
+</div>
+<div>
+    <div class="col-12 col-md-3">
+        <p>
+            Like what you see?
+        </p>
+        <p class="text-center">
+            <img class="links-img" src="../Photos/Flowers.jpg"></img>
+        </p>
+        <p class="text-center">
+            <a href="gallery.html">
+                            <button type="button" class="btn who-cta-btn">View Our Previous Work</button>
+                        </a>
+        </p>
+    </div>
+</div>

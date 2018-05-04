@@ -1,11 +1,184 @@
-.socials {
-    list-style: none;
-    text-decoration: none;
+/* ------------------ BackGround Colors ------------------ */
+
+.bg-index {
+    background-color: #546e7a;
 }
 
-.flowers,
-.landscape,
-.maintenance,
-.grass {
-    height: 200px;
+.bg-footer {
+    background-color: #819ca9;
+}
+
+/* ------------------ Navigation ------------------ */
+
+#nav {
+    background-color: #29434e;
+    z-index: 1;
+}
+
+.nav-items {
+    color: #ffffff;
+}
+
+.nav-items:hover {
+    color: #819ca9;
+}
+
+.nav-btn {
+    background-color: #ffffff;
+}
+
+/* ------------------ Banner ------------------ */
+
+.banner {
+    height: 670px;
+    width: 100%;
+    background: url("../Photos/tidy-garden.jpg");
+    background-size: fixed;
+    margin: 0;
+}
+
+.banner-container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.banner-text {
+    color: #29434e;
+    text-align: center;
+}
+
+.banner-btn {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn-ban {
+    background-color: #29434e;
+    color: #ffffff;
+}
+
+.btn-ban:hover {
+    color: #819ca9;
+}
+
+/* ------------------ Who We Are ------------------ */
+
+.who-container {
+    width: 60%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.who-cta-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #aed581;
+}
+
+.link-container {
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.link-header {
+    background-color: #7da453;
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-top: 1px solid #e1ffb1;
+    border-left: 1px solid #e1ffb1;
+    border-right: 1px solid #e1ffb1;
+}
+
+.links-img {
+    height: 130px;
+    margin: 2px;
+}
+
+.link {
+    background-color: #ffffff;
+    height: 270px;
+    width: 400px;
+    border: 1px solid #e1ffb1;
+    padding: 10px;
+}
+
+/* ------------------ Gallery ------------------ */
+
+.gallery-title-header {
+    background-color: #7da453;
+    border-top: 1px solid #e1ffb1;
+    border-left: 1px solid #e1ffb1;
+    border-right: 1px solid #e1ffb1;
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-title-body {
+    text-align: center;
+    border-left: 1px solid #e1ffb1;
+    border-right: 1px solid #e1ffb1;
+    border-bottom: 1px solid #e1ffb1;
+    padding: 15px;
+}
+
+.gallery-title {
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.gallery-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.previous {
+    color: #29434e;
+    font-size: 40px;
+}
+
+.next {
+    color: #29434e;
+    font-size: 40px;
+}
+
+/* ------------------ Contact Us ------------------ */
+
+.contact-container {
+    width: 40%;
+    padding: 25px;
+    height: 100vh;
+}
+
+.contact-heading {
+    margin-bottom: 25px;
+}
+
+/* ------------------ Footer ------------------ */
+
+.socials li a i {
+    list-style: none;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    background-color: #e1ffb1;
+    color: #000000;
+}
+
+.socials li a i:hover {
+    background-color: #29434e;
+    color: #ffffff;
+}
+
+.container-footer {
+    height: 80px;
+    background-color: #819ca9;
+    padding: 20px;
 }
