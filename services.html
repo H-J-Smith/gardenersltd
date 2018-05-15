@@ -11,83 +11,94 @@
     <title>Gardeners Ltd | Services</title>
 </head>
 
-<body>
+<body class="bg-index">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Gardeners Ltd</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav-menu">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
-                    </li>
-                </ul>
+        <nav>
+            <div class="navbar navbar-expand-lg navbar-light" id="nav">
+                <a class="navbar-brand" href="index.html"><span class="nav-items">Gardeners Ltd</span></a>
+                <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><span class="nav-items">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html"><span class="nav-items">Services</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html"><span class="nav-items">Gallery</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html"><span class="nav-items">Contact Us</span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
-    <section class="container-fluid">
-        <div class="row lawns">
-            <div class="col-12 col-md-9">
-                <h2>Lawns</h2>
-                <p>
-                    Whatever state your lawn is in, we can make it better! We have a tried and tested technique, and over the course of only 4 weeks we can de-weed, thicken and even soften your grass. This will leave you with satisfying results, that you wont be able to
-                    stop telling your friends about. If you don't currently have a lawn, but want one, then we can come and prep the ground, lay the turf and sort out the aftercare.
-                </p>
+    <div class="container-fluid content">
+            <div class="row lawns align-items-center">
+                <div class="container-fluid justify-content-md-center col-12 col-lg-2">
+                    <h2>Lawns</h2>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <p>
+                        Whatever state your lawn is in, we can make it better! We have a tried and tested technique, and over the course of only 4 weeks we can de-weed, thicken and even soften your grass. This will leave you with satisfying results, that you wont be able to
+                        stop telling your friends about. If you don't currently have a lawn, but want one, then we can come and prep the ground, lay the turf and sort out the aftercare.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <img class="grass" alt="green-grass" src="../Photos/green grass.jpg"></img>
+                </div>
             </div>
-            <div class="col-12 col-md-3">
-                <img class="grass" alt="green-grass" src="../Photos/green grass.jpg"></img>
+            <div class="row maintenance align-items-center">
+                <div class="container-fluid justify-content-md-center col-12 col-lg-2">
+                    <h2>Maintenance</h2>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <p>
+                        Whether you need your garden weeding. The lawn might need a mow, maybe a hedge needs trimming. We are capable of any mainenance activity that you can imagine. If you need a one off general garden tidy at the start of spring or regular appointments, anything
+                        is possible and you are in control.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <img class="weeding" alt="weeding" src="../Photos/maintenance.jpg"></img>
+                </div>
+            </div>
+            <div class="row landscape align-items-center">
+                <div class="container-fluid justify-content-md-center col-12 col-lg-2">
+                    <h2>Landscape</h2>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <p>
+                        If your garden just isn't working for you or you believe it is time for a complete change, then why not get us to come and landscape it for you. We can jurastically change the way your garden looks, is orientated and functions. You would be surprised
+                        too find out just how much more you could get out of your garden with our help.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <img class="overview" alt="re-work" src="../Photos/landscape.jpg"></img>
+                </div>
+            </div>
+            <div class="cant-find">
+                <div class="col-12">
+                    <h1>Can't find your job listed above?</h1>
+                    <a href="contact-us.html">
+                        <button type="button" class="btn cant-find-btn">Contact us</button>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row mainenance">
-            <div class="col-12 col-md-9">
-                <h2>Maintenance</h2>
-                <p>
-                    Whether you need your garden weeding. The lawn might need a mow, maybe a hedge needs trimming. We are capable of any mainenance activity that you can imagine. If you need a one off general garden tidy at the start of spring or regular appointments, anything
-                    is possible and you are in control.
-                </p>
-            </div>
-            <div class="col-12 col-md-3">
-                <img class="maintenance" alt="weeding" src="../Photos/maintenance.jpg"></img>
-            </div>
-        </div>
-        <div class="row landscape">
-            <div class="col-12 col-md-9">
-                <h2>Landscape</h2>
-                <p>
-                    If your garden just isn't working for you or you believe it is time for a complete change, then why not get us to come and landscape it for you. We can jurastically change the way your garden looks, is orientated and functions. You would be surprised
-                    too find out just how much more you could get out of your garden with our help.
-                </p>
-            </div>
-            <div class="col-12 col-md-3">
-                <img class="landscape" alt="re-work" src="../Photos/landscape.jpg"></img>
-            </div>
-        </div>
-        <div class="row">
-            <h2>Can't find your job listed above?</h2>
-            <a href="contact-us.html">
-                <button type="button" class="btn">Contact us</button>
-            </a>
-        </div>
-    </section>
-
-    <footer class="container-fluid align-items-end container-footer">
+    </div>
+    
+    <footer class="container-fluid container-footer">
         <div class="row align-items-center">
-            <div class="text-center text-md-left col-12 col-md-8">
+            <div class="text-center text-md-left col-md-8">
                 <p><i class="far fa-copyright align-items-center"></i> 2018 - Gardeners Ltd. All rights reserved.</p>
             </div>
-            <div class="text-center text-md-right col-12 col-md-4">
+            <div class="text-center text-md-right col-md-4">
                 <ul class="list-inline socials">
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 
 <head>
@@ -12,75 +12,76 @@
 </head>
 
 <body class="bg-index">
-    <header>
-        <nav>
-            <div class="navbar navbar-expand-lg navbar-light" id="nav">
-                <a class="navbar-brand" href="index.html"><span class="nav-items">Gardeners Ltd</span></a>
-                <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <header>
+            <nav>
+                <div class="navbar navbar-expand-lg navbar-light" id="nav">
+                    <a class="navbar-brand" href="index.html"><span class="nav-items">Gardeners Ltd</span></a>
+                    <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="nav-menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html"><span class="nav-items">Home</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html"><span class="nav-items">Services</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html"><span class="nav-items">Gallery</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html"><span class="nav-items">Contact Us</span></a>
-                        </li>
+                    <div class="collapse navbar-collapse" id="nav-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><span class="nav-items">Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html"><span class="nav-items">Services</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html"><span class="nav-items">Gallery</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html"><span class="nav-items">Contact Us</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container contact-container">
+            <div>
+                <div class- "row contact-heading">
+                    <h2 class="text-center">Contact Us Today, So We Can Discuss Your Job!</h2>
+                </div>
+                <div class- "row">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label></label>
+                            <input type="text" class="form-control" id="inputName" aria-describedby="name" placeholder="Enter Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPhone">Phone Number</label>
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Password</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputJobDescription">Job Description</label>
+                            <textarea class="form-control" id="inputJobDescription" rows="5" placeholder="Job Description"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="container-fluid container-footer-fixed">
+            <div class="row align-items-center">
+                <div class="text-center text-md-left col-12 col-md-8">
+                    <p><i class="far fa-copyright align-items-center"></i> 2018 - Gardeners Ltd. All rights reserved.</p>
+                </div>
+                <div class="text-center text-md-right col-12 col-md-4">
+                    <ul class="list-inline socials">
+                        <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <section class="container contact-container">
-        <div>
-            <div class- "row contact-heading">
-                <h3 class="text-center">Contact Us Today, So We Can Discuss Your Job!</h3>
-            </div>
-            <div class- "row">
-                <form>
-                    <div class="form-group">
-                        <label for="inputName">Name</label></label>
-                        <input type="text" class="form-control" id="inputName" aria-describedby="name" placeholder="Enter Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPhone">Phone Number</label>
-                        <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail">Password</label>
-                        <input type="text" class="form-control" id="inputEmail" placeholder="Email Address">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputJobDescription">Job Description</label>
-                        <textarea class="form-control" id="inputJobDescription" rows="5" placeholder="Job Description"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer class="container-fluid align-items-end container-footer">
-        <div class="row align-items-center">
-            <div class="text-center text-md-left col-12 col-md-8">
-                <p><i class="far fa-copyright align-items-center"></i> 2018 - Gardeners Ltd. All rights reserved.</p>
-            </div>
-            <div class="text-center text-md-right col-12 col-md-4">
-                <ul class="list-inline socials">
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

@@ -8,6 +8,16 @@
     background-color: #819ca9;
 }
 
+/* ------------------ Body ------------------ */
+
+body {
+    height: 100%;
+}
+
+.content {
+    padding: 0;
+}
+
 /* ------------------ Navigation ------------------ */
 
 #nav {
@@ -77,32 +87,65 @@
 }
 
 .link-container {
-    padding: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.link-header {
-    background-color: #7da453;
-    height: 50px;
-    width: 400px;
-    padding: 10px;
-    border-top: 1px solid #e1ffb1;
-    border-left: 1px solid #e1ffb1;
-    border-right: 1px solid #e1ffb1;
+    margin-bottom: 10px;
 }
 
 .links-img {
-    height: 130px;
-    margin: 2px;
+    height: 200px;
 }
 
 .link {
     background-color: #ffffff;
-    height: 270px;
-    width: 400px;
-    border: 1px solid #e1ffb1;
-    padding: 10px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.link-header {
+    background-color: #7da453;
+    margin: 0px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* ------------------ Services ------------------ */
+
+.lawns {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grass {
+    max-width: 100%;
+}
+
+.maintenance {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.weeding {
+    max-width: 100%;
+}
+
+.landscape {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overview {
+    max-width: 100%;
+}
+
+.cant-find {
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.cant-find-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #29434e;
+    color: #ffffff;
 }
 
 /* ------------------ Gallery ------------------ */
@@ -122,11 +165,13 @@
     border-right: 1px solid #e1ffb1;
     border-bottom: 1px solid #e1ffb1;
     padding: 15px;
+    text-align: center;
 }
 
 .gallery-title {
     background-color: #ffffff;
     margin-top: 50px;
+    max-width: 90%;
 }
 
 .gallery-container {
@@ -147,13 +192,52 @@
 /* ------------------ Contact Us ------------------ */
 
 .contact-container {
-    width: 40%;
+    width: 100%;
     padding: 25px;
-    height: 100vh;
 }
 
-.contact-heading {
-    margin-bottom: 25px;
+/* ------------------ Media Queries ------------------ */
+
+@media (min-width: 768px) {
+    .contact-container {
+        width: 60%;
+    }
+    .grass {
+        max-width: 100%;
+    }
+    .links-img {
+        height: 300px;
+    }
+    .cant-find-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #29434e;
+        color: #ffffff;
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .md-footer {
+        bottom: 0;
+        position: absolute;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-container {
+        width: 40%;
+    }
+    .link {
+        width: 60%;
+    }
+    .link-header {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .links-img {
+        height: 400px;
+    }
 }
 
 /* ------------------ Footer ------------------ */
@@ -178,7 +262,13 @@
 }
 
 .container-footer {
-    height: 80px;
     background-color: #819ca9;
-    padding: 20px;
+    padding-top: 10px;
+}
+
+.container-footer-fixed {
+    background-color: #819ca9;
+    padding-top: 10px;
+    bottom: 0;
+    position: absolute;
 }
