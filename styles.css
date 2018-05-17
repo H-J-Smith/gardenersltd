@@ -42,7 +42,7 @@ body {
 .banner {
     height: 670px;
     width: 100%;
-    background: url("/photos/tidy-garden.jpg");
+    background: url("./photos/tidy-garden.jpg");
     background-size: fixed;
     margin: 0;
 }
