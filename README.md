@@ -18,7 +18,7 @@ Within the website there is  a home page with a full width banner, as a focal po
 This website is built using HTML, CSS & Bootstrap. 
   - First the HTML was coded to supply the structure.
   - The Bootstrap framework was then applied to give a basis styling.
-  - CSS was then coded to override the styling elements of the bootstrap to give the individual style that is seen in the end     result.
+  - CSS was then coded to override the styling elements of the bootstrap to give the individual style that is seen in the end result.
 
 ### Testing
 Gardeners Ltd has been tested on the following browers:

@@ -112,6 +112,7 @@ body {
 .lawns {
     text-align: center;
     margin-top: 10px;
+    max-width: 100%;
 }
 
 .grass {
@@ -198,6 +199,33 @@ body {
 
 /* ------------------ Media Queries ------------------ */
 
+@media (min-width: 320px) {
+    .contact-container {
+        width: 100%;
+    }
+    .grass {
+        max-width: 100%;
+    }
+    .links-img {
+        height: 300px;
+    }
+    .cant-find-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #29434e;
+        color: #ffffff;
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .md-footer {
+        bottom: 0;
+    }
+    .links-img {
+        height: 150px;
+    }
+}
+
 @media (min-width: 768px) {
     .contact-container {
         width: 60%;
@@ -220,6 +248,9 @@ body {
     .md-footer {
         bottom: 0;
         position: absolute;
+    }
+    .links-img {
+        height: 300px;
     }
 }
 
@@ -269,6 +300,4 @@ body {
 .container-footer-fixed {
     background-color: #819ca9;
     padding-top: 10px;
-    bottom: 0;
-    position: absolute;
 }
